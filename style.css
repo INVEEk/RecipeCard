@@ -31,8 +31,8 @@ body {
 }
 
 .dish-ingredients {
-    width: 250px;
-    height: 200px;
+    width: 265px;
+    height: 250px;
     background-color: moccasin;
     margin: 10px;
     border-radius: 10px;
@@ -42,4 +42,14 @@ body {
     width: 250px;
     height: 60px;
     text-align: center;
+}
+
+.dish-ingredients> .ingredients ul:nth-child(2) {
+    text-align: left;
+    font-size: 14px;
+    margin: 8px 8px 0;
+}
+
+.ingredients-list {
+    padding-left: 17px;
 }
