@@ -4,27 +4,25 @@
 }
 
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-9YxtOo_DO1UAbrNYv-e2OsxNRBii4cLRVhB5qYqdqfnx3KOiDJ_1PL4lvehviezKiI&usqp=CAU");
+    background-image: url("https://i0.wp.com/dietetyczne-przepisy.net/wp-content/uploads/2013/10/dietetyczny-bogracz-1.jpg?fit=770%2C512&ssl=1");
     background-repeat: no-repeat;
-    background-size: 900px 600px;
+    background-size: 1000px 700px;
+    margin: 20px 0;
 }
 
 .dish-name {
     width: 250px;
     height: 200px;
-    background-color: moccasin;
-    margin: 10px;
-    border-radius: 10px;
     display: block;
 }
 
-.dish-description {
+.description {
     width: 250px;
     height: 60px;
     text-align: center;
 }
 
-.dish-name> .dish-description p:nth-child(3) {
+.dish-name> .description p:nth-child(3) {
     margin: 8px 8px 0;
     font-size: 14px;
     text-align: justify;
@@ -33,9 +31,6 @@ body {
 .dish-ingredients {
     width: 250px;
     height: 240px;
-    background-color: moccasin;
-    margin: 10px;
-    border-radius: 10px;
 }
 
 .ingredients {
@@ -44,7 +39,7 @@ body {
     text-align: center;
 }
 
-.dish-ingredients> .ingredients ul:nth-child(2) {
+.dish-ingredients > .ingredients ul:nth-child(2) {
     text-align: left;
     font-size: 14px;
     margin: 8px 8px 0;
@@ -52,4 +47,23 @@ body {
 
 .ingredients-list {
     padding-left: 17px;
+}
+
+.instruction-step {
+    padding-left: 17px;
+    text-align: left;
+    font-size: 14px;
+    margin: 8px 8px 0;
+}
+
+.dish-background-color {
+    background-color: moccasin;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dish-instruction {
+    width: 800px;
+    height: 200px;
+    text-align: center;
 }
