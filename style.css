@@ -31,8 +31,8 @@ body {
 }
 
 .dish-ingredients {
-    width: 265px;
-    height: 250px;
+    width: 250px;
+    height: 240px;
     background-color: moccasin;
     margin: 10px;
     border-radius: 10px;
@@ -40,7 +40,7 @@ body {
 
 .ingredients {
     width: 250px;
-    height: 60px;
+    height: 30px;
     text-align: center;
 }
 
