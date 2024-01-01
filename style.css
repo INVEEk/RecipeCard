@@ -27,6 +27,7 @@ body {
     font-size: 14px;
     text-align: justify;
 }
+
 .dish-ingredients {
 
     width: 250px;
@@ -73,10 +74,56 @@ body {
     * {
         margin: 0;
         box-sizing: border-box;
+    }
+
     body {
         background-image: url("https://i0.wp.com/dietetyczne-przepisy.net/wp-content/uploads/2013/10/dietetyczny-bogracz-1.jpg?fit=770%2C512&ssl=1");
-        background-repeat: no-repeat;
-        background-size: auto 550px;
+        background-size: contain;
         background-color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50%;
+        color: whitesmoke;
+    }
+
+    .dish-name {
+        width: 95%;
+        height: 165px;
+    }
+
+    .description {
+        width: auto;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .dish-background-color {
+        display: flex;
+        background-color: firebrick;
+        margin: 1%;
+        border-radius: 10px;
+    }
+
+    .dish-name> .description p:nth-child(3) {
+        font-size: small;
+        margin: 3%;
+    }
+
+    .dish-ingredients {
+        width: 95%;
+        height: 225px;
+    }
+
+    .ingredients {
+        width: 100%;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .dish-ingredients > .ingredients ul:nth-child(2) {
+        text-align: left;
+        font-size: small;
+        margin: 3%;
     }
 }
