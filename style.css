@@ -1,16 +1,156 @@
 * {
-    margin: 5px;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    height: 800px;
-    width: 1000px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    background-image: url("https://i0.wp.com/dietetyczne-przepisy.net/wp-content/uploads/2013/10/dietetyczny-bogracz-1.jpg?fit=770%2C512&ssl=1");
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    margin: 20px 0;
 }
 
-.food-background {
+.dish-name {
+    width: 250px;
+    height: 200px;
+    display: block;
+}
 
+.description {
+    width: 250px;
+    height: 60px;
+    text-align: center;
+}
+
+.dish-name> .description p:nth-child(3) {
+    margin: 8px 10px 0;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.dish-ingredients {
+
+    width: 250px;
+    height: 240px;
+}
+
+.ingredients {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+.dish-ingredients > .ingredients ul:nth-child(2) {
+    text-align: left;
+    font-size: 14px;
+    margin: 8px 8px 0;
+}
+
+.ingredients-list {
+    padding-left: 17px;
+}
+
+.instruction-step {
+    padding-left: 17px;
+    text-align: left;
+    font-size: 14px;
+    margin: 8px 8px 0;
+}
+
+.dish-background-color {
+    background-color: moccasin;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dish-instruction {
+    width: 800px;
+    height: 165px;
+    text-align: center;
+}
+
+.bottom {
+    display: none;
+}
+
+/* Devices 768px and smaller */
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("https://i0.wp.com/dietetyczne-przepisy.net/wp-content/uploads/2013/10/dietetyczny-bogracz-1.jpg?fit=770%2C512&ssl=1");
+        background-size: contain;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50%;
+        color: whitesmoke;
+    }
+
+    .dish-name {
+        width: 95%;
+        height: 165px;
+    }
+
+    .description {
+        width: auto;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .dish-background-color {
+        display: flex;
+        background-color: firebrick;
+        margin: 1%;
+        border-radius: 10px;
+    }
+
+    .dish-name> .description p:nth-child(3) {
+        font-size: small;
+        margin: 3%;
+    }
+
+    .dish-ingredients {
+        width: 95%;
+    }
+
+    .ingredients {
+        width: 100%;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .dish-ingredients > .ingredients ul:nth-child(2) {
+        text-align: left;
+        font-size: small;
+        margin: 3%;
+    }
+
+    .dish-instruction {
+        width: 95%;
+        height: auto;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    hr.bottom {
+        margin-top: 1%;
+        display: flex;
+        color: whitesmoke;
+        width: 95%;
+        border: 1px solid;
+    }
+
+    .signature {
+        margin-top: 3%;
+        font-size: 10px;
+    }
+
+    .font-style {
+        font-style: italic;
+    }
 }
